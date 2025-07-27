@@ -173,9 +173,7 @@ img {
   border: none;
   padding: 120px 0 120px;
 }
-team-list-point {
-  overflow: hidden;
-}
+
 .featur-list {
   display: flex;
   width: 1128px;
@@ -183,7 +181,7 @@ team-list-point {
   gap: 24px;
 }
 .featur-list-point {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .strategy-title-list {
