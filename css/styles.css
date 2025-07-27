@@ -122,7 +122,6 @@ img {
   display: flex;
   flex-grow: 1;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 .header-link-point {
   color: #434455;
@@ -131,6 +130,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #ffffff;
+  padding: 24px 0 24px;
 }
 .header-link-point:hover,
 .header-link-point:focus {
@@ -180,10 +180,12 @@ team-list-point {
   display: flex;
   width: 1128px;
   height: 104px;
+  gap: 24px;
 }
 .featur-list-point {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .strategy-title-list {
   color: #2e2f42;
   font-weight: 500;
