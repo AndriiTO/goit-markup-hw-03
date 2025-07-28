@@ -5,7 +5,8 @@ a {
 ul,
 ol {
   list-style: none;
-  padding-left: 0px;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -19,11 +20,8 @@ p {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -75,9 +73,11 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container {
+.header-container {
   display: flex;
+  align-items: center;
 }
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -86,6 +86,8 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
+  padding: 24px;
   margin-right: 76px;
 }
 .logo-part {
@@ -108,6 +110,10 @@ img {
   display: flex;
   gap: 40px;
 }
+.nav-link {
+  padding: 24px 0;
+  display: block;
+}
 .nav-list-point {
   padding-bottom: 24px;
   padding-top: 24px;
@@ -128,6 +134,7 @@ img {
   display: flex;
   flex-grow: 1;
   gap: 40px;
+  margin-left: auto;
 }
 .header-link-point {
   color: #434455;
@@ -137,6 +144,9 @@ img {
   letter-spacing: 0.02em;
   background-color: #ffffff;
   padding: 24px 0 24px;
+}
+.header-link-list {
+  display: flex;
 }
 .header-link-point:hover,
 .header-link-point:focus {
