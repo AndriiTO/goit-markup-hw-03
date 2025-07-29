@@ -65,11 +65,6 @@ img {
 }
 /*header*/
 .header {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -87,7 +82,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  padding: 24px;
+  padding: 24px 0;
   margin-right: 76px;
 }
 .logo-part {
@@ -100,29 +95,26 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 .header-nav-list {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
 }
 .nav-link {
-  padding: 24px 0;
-  display: block;
 }
 .nav-list-point {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
   padding-bottom: 24px;
   padding-top: 24px;
+  display: block;
 }
 .header-nav-list a:hover,
 .header-nav-list a:focus {
   color: #404bbf;
-  display: flex;
-  gap: 40;
 }
 .nav-studio:active {
   text-decoration: underline;
@@ -144,9 +136,9 @@ img {
   letter-spacing: 0.02em;
   background-color: #ffffff;
   padding: 24px 0 24px;
+  display: block;
 }
 .header-link-list {
-  display: flex;
 }
 .header-link-point:hover,
 .header-link-point:focus {
@@ -155,15 +147,12 @@ img {
 /*Effective Solutions*/
 .first-section {
   background-color: #2e2f42;
-  height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 }
 .hero-title {
   color: #fff;
   width: 498px;
-  height: 120px;
   font-weight: 700;
   font-size: 56px;
   text-align: center;
@@ -185,15 +174,11 @@ img {
 
 /*featur*/
 .featur {
-  margin-bottom: 120px;
-  border: none;
   padding: 120px 0 120px;
 }
 
 .featur-list {
   display: flex;
-  width: 1128px;
-  height: 104px;
   gap: 24px;
 }
 .featur-list-point {
@@ -219,8 +204,6 @@ img {
 /*team*/
 .team {
   background-color: #f4f4fd;
-  height: 732px;
-  margin-bottom: 120px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -241,14 +224,12 @@ img {
 .team-list-point {
   background-color: #ffffff;
   width: 264px;
-  height: 380px;
   padding-bottom: 32px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-text-conteiner {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
   padding: 32px 0 32px;
 }
 .team-list-title {
@@ -257,7 +238,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -272,7 +252,6 @@ img {
 .porfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-bottom: 120px;
 }
 .portfolio .container {
   margin-bottom: 120px;
@@ -290,21 +269,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  justify-content: center;
-  max-width: 1200px;
 }
 .portfolio-list-point {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-text-conteiner {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 .portfolio-list-title {
   font-weight: 500;
@@ -323,7 +295,6 @@ img {
 /*footer*/
 .foot {
   background-color: #2e2f42;
-  height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -346,6 +317,5 @@ img {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 400px;
-  height: 72px;
+  width: 264px;
 }
